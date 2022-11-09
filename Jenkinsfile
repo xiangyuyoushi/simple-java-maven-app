@@ -17,7 +17,7 @@ pipeline {
             }
             post {
                 always {
-                    junit 'target/surefire-reports/*.xml -Denforcer.fail=false' 
+                    junit 'target/surefire-reports/*.xml ' 
                 }
             }
         }
